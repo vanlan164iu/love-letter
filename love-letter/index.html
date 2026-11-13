@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0B1026" />
+    <title>A Little Story About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500&family=Dancing+Script:wght@500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <canvas id="sky" aria-hidden="true"></canvas>
+    <div id="glow" aria-hidden="true"></div>
+    <div id="fx" aria-hidden="true"></div>
+
+    <main>
+      <!-- CHAPTER 01 -->
+      <section class="chapter is-active" id="chapter-1">
+        <div class="inner">
+          <p class="chapter-tag">Chapter 01</p>
+          <h1 class="chapter-title">Unlock My Heart</h1>
+          <div class="heart-wrap" id="heart-wrap">
+            <div class="heart"></div>
+          </div>
+          <p class="lead">Anh có một món quà nhỏ dành cho em...</p>
+          <p class="sub">
+            Nhưng trước tiên, em cần mở khóa một chút bí mật nhóa!
+          </p>
+          <form id="unlock-form" autocomplete="off" novalidate>
+            <input
+              id="unlock-input"
+              type="password"
+              inputmode="numeric"
+              maxlength="20"
+              placeholder="Chìa khóa của em"
+              aria-label="Mật khẩu"
+              autocomplete="off"
+            />
+            <button type="submit" class="btn">Mở khóa</button>
+          </form>
+          <p id="unlock-msg" role="alert"></p>
+        </div>
+      </section>
+
+      <!-- CHAPTER 02 -->
+      <section class="chapter" id="chapter-2">
+        <div class="inner">
+          <p class="chapter-tag">Chapter 02</p>
+          <h2 class="chapter-title">The First Time I Met You</h2>
+          <p class="hand reveal">Đây là lần đầu anh gặp em...</p>
+          <div class="prose">
+            <p class="reveal">
+              Giữa rất nhiều người, giữa những ngày bình thường, anh đã có cơ
+              hội gặp được em.
+            </p>
+            <p class="reveal">
+              Hôm nay là lần đầu anh được gặp em ngoài đời. Anh hong ngờ có ngày
+              mình lại được gặp crush luôn á... 🥺
+            </p>
+            <p class="reveal">
+              Trước đó chỉ là những lần nhìn thấy nhau qua màn hình, những cuộc
+              trò chuyện nhỏ nhỏ, vậy mà hôm nay anh đã có cơ hội được gặp em
+              thật rùiii. Không biết lúc ấy em cảm thấy thí nào, chứ anh thì có
+              chút hồi hộp, có chút ngại ngùng.
+            </p>
+            <p class="reveal">
+              Nhưng với anh, đó là một kỷ niệm đáng để lưu giữ.
+            </p>
+            <p class="reveal emph">
+              Đôi khi, những điều đẹp đẽ nhất lại bắt đầu từ một cuộc gặp gỡ rất
+              đỗi bình thường.
+            </p>
+          </div>
+          <figure class="photo-frame big reveal">
+            <img
+              class="photo"
+              src="assets/images/lanxinh.jpg"
+              alt="Lần đầu chúng ta gặp nhau"
+              loading="lazy"
+            />
+            <div class="photo-fallback">
+              <span>♥</span><small>Khoảng trống này đang đợi một tấm ảnh</small>
+            </div>
+          </figure>
+          <div class="nav reveal">
+            <button class="btn ghost" data-go="prev">Quay lại</button>
+            <button class="btn" data-go="next">Tiếp tục câu chuyện</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHAPTER 03 -->
+      <section class="chapter" id="chapter-3">
+        <div class="inner">
+          <p class="chapter-tag">Chapter 03</p>
+          <h2 class="chapter-title">Little Things, Special Moments</h2>
+          <div class="prose">
+            <p>
+              Anh nhận ra rằng, đôi khi những điều khiến người ta vui vẻ chẳng
+              cần phải lớn lao.
+            </p>
+            <p>
+              Có thể chỉ là một tin nhắn, một câu chuyện vu vơ, một nụ cười hay
+              một khoảnh khắc rất bình thường.
+            </p>
+            <p>
+              Nhưng khi những điều ấy gắn liền với em, chúng lại trở nên đặc
+              biệt hơn một chút.
+            </p>
+          </div>
+
+          <!-- Sửa nội dung từng mục tại đây (.memory-text) -->
+          <div class="scrapbook">
+            <article class="memory memory--note">
+              <button class="memory-toggle" aria-expanded="false">
+                <span class="memory-name">A Little Smile</span>
+                <span class="memory-hint"
+                  >Một điều khiến anh mỉm cười khi nghĩ về em.</span
+                >
+              </button>
+              <div class="memory-body">
+                <div class="memory-inner">
+                  <figure class="photo-frame small">
+                    <img
+                      class="photo"
+                      src="assets/images/hai.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="photo-fallback"><span>♥</span></div>
+                  </figure>
+                  <p class="memory-text">
+                    Là anh biết được em là Đom đóm chúa á !!!
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="memory memory--polaroid">
+              <button class="memory-toggle" aria-expanded="false">
+                <span class="memory-name">Sweet Memories</span>
+                <span class="memory-hint"
+                  >Một khoảnh khắc hoặc câu chuyện nhỏ mà anh muốn lưu
+                  giữ.</span
+                >
+              </button>
+              <div class="memory-body">
+                <div class="memory-inner">
+                  <figure class="photo-frame small">
+                    <img
+                      class="photo"
+                      src="assets/images/call.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="photo-fallback"><span>♥</span></div>
+                  </figure>
+                  <p class="memory-text">
+                    Khoảnh khắc bọn mình gọi cho nhau mấy tiếng hôm đó !!!
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="memory memory--ticket">
+              <button class="memory-toggle" aria-expanded="false">
+                <span class="memory-name">Something Special</span>
+                <span class="memory-hint"
+                  >Một điều anh cảm thấy đáng yêu và đặc biệt ở em.</span
+                >
+              </button>
+              <div class="memory-body">
+                <div class="memory-inner">
+                  <figure class="photo-frame small">
+                    <img
+                      class="photo"
+                      src="assets/images/cap.jpg"
+                      alt=""
+                      loading="lazy"
+                    />
+                    <div class="photo-fallback"><span>♥</span></div>
+                  </figure>
+                  <p class="memory-text">Được em nói là em iu Chồnggg.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="nav">
+            <button class="btn ghost" data-go="prev">Quay lại</button>
+            <button class="btn" data-go="next">
+              Đọc một điều anh muốn gửi em
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHAPTER 04 -->
+      <section class="chapter" id="chapter-4">
+        <div class="inner">
+          <p class="chapter-tag">Chapter 04</p>
+          <h2 class="chapter-title">A Letter For You</h2>
+          <button class="envelope" id="envelope" aria-label="Mở phong thư">
+            <span class="env-body"></span><span class="env-flap"></span
+            ><span class="env-seal">♥</span>
+          </button>
+          <p class="env-hint" id="env-hint">Chạm vào phong thư để mở</p>
+
+          <div class="letter" id="letter" hidden>
+            <div class="letter-text" id="letter-text" aria-live="polite"></div>
+            <p class="letter-heart" id="letter-heart">♥</p>
+          </div>
+          <div class="ending" id="ending">
+            <p class="ending-line">Anh rất vui vì đã gặp em.</p>
+            <p class="signature">With love.</p>
+          </div>
+          <div class="nav">
+            <button class="btn ghost" data-go="prev">Quay lại</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="dots" aria-hidden="true">
+      <span class="dot is-on"></span><span class="dot"></span
+      ><span class="dot"></span><span class="dot"></span>
+    </div>
+    <button
+      id="music-btn"
+      class="music-btn"
+      aria-label="Bật nhạc nền"
+      aria-pressed="false"
+    >
+      ♪
+    </button>
+    <audio
+      id="bgm"
+      src="assets/music/background.mp3"
+      preload="none"
+      loop
+    ></audio>
+    <script src="js/script.js"></script>
+  </body>
+</html>
