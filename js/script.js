@@ -21,9 +21,15 @@ Anh thật sự mong có cơ hội được tìm hiểu em nhiều hơn, đượ
 
 Anh không muốn vội vàng hứa hẹn điều gì. Anh chỉ mong cả hai có thể từ từ tìm hiểu, dành thời gian cho nhau và bắt đầu một điều gì đó thật đẹp bằng sự chân thành.
 
-Anh không biết sau này câu chuyện của chúng ta sẽ như thế nào, nhưng ở hiện tại, anh thật sự muốn nghiêm túc với cơ hội được tìm hiểu em á. 
+Anh không biết sau này câu chuyện của chúng ta sẽ như thế nào, nhưng ở hiện tại, anh thật sự muốn nghiêm túc với cơ hội được tìm hiểu em á.
 
-Anh muốn nói là: ANH YÊU EM RẤT NHIỀU ❤️`,
+Mong chúng ta sẽ luôn là động lực của nhau. Cùng lớn lên, cùng cố gắng, cùng trở thành phiên bản tốt hơn của chính mình không phải vì ai bắt buộc, mà vì cả hai đều muốn gìn giữ tình yêu này thật lâu.
+
+Hy vọng sau này, giữa rất nhiều đổi thay, điều không thay đổi vẫn là việc chúng ta luôn chọn nhau.
+
+Anh muốn nói là: ANH YÊU EM RẤT NHIỀU ❤️
+
+`,
   };
 
   const $ = (s, r = document) => r.querySelector(s);
